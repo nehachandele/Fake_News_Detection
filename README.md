@@ -59,8 +59,9 @@ Fake_News_Detection/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/<REPO_NAME>.git
-cd <REPO_NAME>
+git clone https://github.com/nehachandele/Fake_News_Detection.git
+cd <Fake_News_Detection
+>
 
 2. Install dependencies
 pip install -r requirements.txt
