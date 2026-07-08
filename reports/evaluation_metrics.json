@@ -1,0 +1,98 @@
+{
+  "generated_at_utc": "2026-07-08T11:06:44.265003+00:00",
+  "best_model_name": "Passive Aggressive",
+  "best_params": {
+    "loss": "squared_hinge",
+    "C": 0.7847599703514611
+  },
+  "dataset_size": 20633,
+  "train_size": 16506,
+  "test_size": 4127,
+  "vectorizer_config": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "max_features": 30000,
+    "min_df": 3,
+    "max_df": 0.9,
+    "vocabulary_size": 30000
+  },
+  "test_metrics": {
+    "accuracy": 0.97,
+    "precision": 0.9702,
+    "recall": 0.9693,
+    "f1_score": 0.9697,
+    "roc_auc": 0.9963,
+    "pr_auc": 0.9964
+  },
+  "model_comparison": [
+    {
+      "model": "Passive Aggressive",
+      "cv_accuracy_mean": 0.9715,
+      "cv_f1_mean": 0.9714,
+      "test_accuracy": 0.9702,
+      "test_precision": 0.9711,
+      "test_recall": 0.9688,
+      "test_f1": 0.97,
+      "test_roc_auc": 0.9963,
+      "train_time_sec": 1.1
+    },
+    {
+      "model": "Linear SVM",
+      "cv_accuracy_mean": 0.9733,
+      "cv_f1_mean": 0.9733,
+      "test_accuracy": 0.9702,
+      "test_precision": 0.9698,
+      "test_recall": 0.9702,
+      "test_f1": 0.97,
+      "test_roc_auc": 0.9965,
+      "train_time_sec": 2.1
+    },
+    {
+      "model": "Logistic Regression",
+      "cv_accuracy_mean": 0.9598,
+      "cv_f1_mean": 0.9598,
+      "test_accuracy": 0.9598,
+      "test_precision": 0.9577,
+      "test_recall": 0.9615,
+      "test_f1": 0.9596,
+      "test_roc_auc": 0.9937,
+      "train_time_sec": 1.3
+    },
+    {
+      "model": "Random Forest",
+      "cv_accuracy_mean": 0.9403,
+      "cv_f1_mean": 0.9394,
+      "test_accuracy": 0.9394,
+      "test_precision": 0.9505,
+      "test_recall": 0.9263,
+      "test_f1": 0.9382,
+      "test_roc_auc": 0.9877,
+      "train_time_sec": 312.2
+    },
+    {
+      "model": "Multinomial NB",
+      "cv_accuracy_mean": 0.9278,
+      "cv_f1_mean": 0.9243,
+      "test_accuracy": 0.9246,
+      "test_precision": 0.9598,
+      "test_recall": 0.8854,
+      "test_f1": 0.9211,
+      "test_roc_auc": 0.9831,
+      "train_time_sec": 0.3
+    }
+  ],
+  "confusion_matrix": [
+    [
+      2016,
+      61
+    ],
+    [
+      63,
+      1987
+    ]
+  ],
+  "false_positive_count": 61,
+  "false_negative_count": 63
+}
